@@ -75,4 +75,12 @@ end
 
 # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
+while true
+  p "Please enter a word:"
+  text = gets.chomp
+  if text.length > 5
+    break
+  end
+end
+
 # 10. Write a while loop that prints the even numbers from 2 to 40.

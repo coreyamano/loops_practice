@@ -18,16 +18,13 @@ end
 
 # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
 
-#p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
-#word = gets.chomp
-
-#while word != "stop"
-#  p word
-#  p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
-#  word = gets.chomp
-#end
-
-#p "Goodbye!"
+while true
+  p "Please type a word:"
+  input = gets.chomp
+  if input == "stop"
+    break
+  end
+end
 
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
@@ -48,13 +45,13 @@ end
 
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
-#while true
-#  p "Please enter a number:"
-#  number = gets.chomp.to_i
-#  if number > 10
-#    break
-#  end
-#end
+while true
+  p "Please enter a number:"
+  number = gets.chomp.to_i
+  if number > 10
+    break
+  end
+end
 
 # 7. Write a while loop that prints the numbers 50 to 70.
 
@@ -84,3 +81,10 @@ while true
 end
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+evens = 2
+
+while evens <= 40
+  p evens
+  evens += 2
+end

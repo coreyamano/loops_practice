@@ -48,15 +48,21 @@ end
 
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
-while true
-  p "Please enter a number:"
-  number = gets.chomp.to_i
-  if number > 10
-    break
-  end
-end
+#while true
+#  p "Please enter a number:"
+#  number = gets.chomp.to_i
+#  if number > 10
+#    break
+#  end
+#end
 
 # 7. Write a while loop that prints the numbers 50 to 70.
+
+w = 50
+while w <= 70
+  p w
+  w += 1
+end
 
 # 8. Write a while loop that prints the phrase "Around the world" 144 times.
 

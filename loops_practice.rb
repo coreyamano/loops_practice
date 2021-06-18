@@ -18,18 +18,25 @@ end
 
 # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
 
-p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
-word = gets.chomp
+#p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
+#word = gets.chomp
 
-while word != "stop"
-  p word
-  p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
-  word = gets.chomp
-end
+#while word != "stop"
+#  p word
+#  p "Please type a word and I will repeat it to you. (Type 'stop' to quit)."
+#  word = gets.chomp
+#end
 
-p "Goodbye!"
+#p "Goodbye!"
 
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
+
+num = 0
+
+while num <= 100
+  p num
+  num += 5
+end
 
 # 5. Write a while loop that prints the number 9000 ten times.
 
